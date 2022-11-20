@@ -1,0 +1,11 @@
+@use '../base/variables';
+@use '../base/globales';
+
+.contenedorReglamento {
+    margin: 50px;
+    background-color: variables.$bg-5;
+    padding:10px;
+    outline: 2px solid orange;
+    border-radius:20px;
+
+}

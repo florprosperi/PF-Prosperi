@@ -1,0 +1,77 @@
+@use '../base/variables';
+@use '../base/globales';
+
+.contenedorFooter {
+    background-color: variables.$bg-5;
+    padding:15px;
+    margin: 20px;
+    text-align: center;
+    font-weight:lighter;
+    line-height: 1;
+    outline: 2px solid black;
+    border-radius: 20px;
+    } 
+
+.enlace {
+    color: variables.$c-2;
+    }
+
+.enlace2 {
+    color: variables.$c-1;
+}
+
+.orangeBgGr {
+    background-image: linear-gradient(to right, variables.$bg-3, variables.$bg-1);
+}
+
+.radiusFooter {
+height: 200;
+width: 400;
+outline: 1px solid #EDA632;
+padding: 15px;
+border-radius: 20px;
+}
+
+// section {
+//         footer {
+//             .contenedorFooter {
+//                 background-color: variables.$bg-5;
+//                 padding:15px;
+//                 margin: 20px;
+//                 text-align: center;
+//                 font-weight:lighter;
+//                 line-height: 1;
+//                 outline: 2px solid black;
+//                 border-radius: 20px;
+
+//             } 
+//             p {
+//                 a {
+//                     .enlace {
+//                         color: variables.$c-2;
+//                     }
+//                 }
+//             div {
+//                 .orangeBackground {
+//                     background-color: variables.$bg-3;
+//                 }
+//                 .radiusFooter {
+//                     height: 200;
+//                     width: 400;
+//                     outline: 1px solid #EDA632;
+//                     padding: 15px;
+//                     border-radius: 20px;
+//                 }
+//             button {
+//                 a{ 
+//                     .enlace2 {
+//                         color: variables.$c-1;
+//                     }
+//                 }
+//             }
+//             }    
+//             }
+
+//         }
+
+// }
