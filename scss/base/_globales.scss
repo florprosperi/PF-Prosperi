@@ -62,7 +62,7 @@ h3 {
     width: 250px;
     margin: 30px;
     padding: 15px;
-    background-color: variables.$bg-4;
+    background-image: linear-gradient(to bottom, variables.$bg-3, variables.$bg-1);
     outline: 2px solid orange;
     border-radius: 50px;
 }
@@ -149,10 +149,40 @@ width:100;
     justify-items: center;
 
 }
+ // box carousel
+ .box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .box div {
+    width: 840px;
+  }
 
-.botonAzul {
-    @include botones;
+  .flechaDark {
+    color: variables.$bg-6;
+  }
+
+.paddingCarousel
+{
+    padding-top: 400px;
+    margin-top: 200px;
 }
+
+// // achicar y centrar imagenes 
+.carousel-inner img {
+        max-width: 630px;
+        margin: 0 auto;
+        
+}
+
+// // achicar carousel
+   .carousel-inner{
+    height: 500px;
+}
+
+
 // TABLET
 @media (min-width: 600px) {
 
@@ -220,6 +250,15 @@ width:100;
     text-align: justify;
 
 }
+
+.cCenter {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color:F4F4F4;
+    justify-content: space-around;
+    text-align: justify;
+
+    }
 .videoContainer {
     width: 500px;
     height: 280px;

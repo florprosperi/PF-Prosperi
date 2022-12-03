@@ -59,7 +59,7 @@ h3 {
   width: 250px;
   margin: 30px;
   padding: 15px;
-  background-color: #f2c56f;
+  background-image: linear-gradient(to bottom, #F2A405, #F4F4F4);
   outline: 2px solid orange;
   border-radius: 50px;
 }
@@ -122,11 +122,6 @@ ol li {
   align-items: center;
 }
 
-.videoContainer {
-  width: 280px;
-  height: auto;
-}
-
 .imgContainer {
   width: 280px;
   height: auto;
@@ -145,6 +140,34 @@ ol li {
   grid-template-rows: 1fr;
   align-items: center;
   justify-items: center;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box div {
+  width: 840px;
+}
+
+.flechaDark {
+  color: black;
+}
+
+.paddingCarousel {
+  padding-top: 400px;
+  margin-top: 200px;
+}
+
+.carousel-inner img {
+  max-width: 630px;
+  margin: 0 auto;
+}
+
+.carousel-inner {
+  height: 500px;
 }
 
 @media (min-width: 600px) {
@@ -193,6 +216,13 @@ ol li {
     align-items: center;
   }
   .col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: F4F4F4;
+    justify-content: space-around;
+    text-align: justify;
+  }
+  .cCenter {
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: F4F4F4;
@@ -269,7 +299,7 @@ h3 {
   width: 250px;
   margin: 30px;
   padding: 15px;
-  background-color: #f2c56f;
+  background-image: linear-gradient(to bottom, #F2A405, #F4F4F4);
   outline: 2px solid orange;
   border-radius: 50px;
 }
@@ -332,11 +362,6 @@ ol li {
   align-items: center;
 }
 
-.videoContainer {
-  width: 280px;
-  height: auto;
-}
-
 .imgContainer {
   width: 280px;
   height: auto;
@@ -355,6 +380,34 @@ ol li {
   grid-template-rows: 1fr;
   align-items: center;
   justify-items: center;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box div {
+  width: 840px;
+}
+
+.flechaDark {
+  color: black;
+}
+
+.paddingCarousel {
+  padding-top: 400px;
+  margin-top: 200px;
+}
+
+.carousel-inner img {
+  max-width: 630px;
+  margin: 0 auto;
+}
+
+.carousel-inner {
+  height: 500px;
 }
 
 @media (min-width: 600px) {
@@ -403,6 +456,13 @@ ol li {
     align-items: center;
   }
   .col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: F4F4F4;
+    justify-content: space-around;
+    text-align: justify;
+  }
+  .cCenter {
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: F4F4F4;
@@ -449,6 +509,10 @@ ol li {
   border-radius: 20px;
 }
 
+.radiusFooterGris {
+  outline: gray;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -510,7 +574,7 @@ h3 {
   width: 250px;
   margin: 30px;
   padding: 15px;
-  background-color: #f2c56f;
+  background-image: linear-gradient(to bottom, #F2A405, #F4F4F4);
   outline: 2px solid orange;
   border-radius: 50px;
 }
@@ -573,11 +637,6 @@ ol li {
   align-items: center;
 }
 
-.videoContainer {
-  width: 280px;
-  height: auto;
-}
-
 .imgContainer {
   width: 280px;
   height: auto;
@@ -596,6 +655,34 @@ ol li {
   grid-template-rows: 1fr;
   align-items: center;
   justify-items: center;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box div {
+  width: 840px;
+}
+
+.flechaDark {
+  color: black;
+}
+
+.paddingCarousel {
+  padding-top: 400px;
+  margin-top: 200px;
+}
+
+.carousel-inner img {
+  max-width: 630px;
+  margin: 0 auto;
+}
+
+.carousel-inner {
+  height: 500px;
 }
 
 @media (min-width: 600px) {
@@ -650,6 +737,13 @@ ol li {
     justify-content: space-around;
     text-align: justify;
   }
+  .cCenter {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: F4F4F4;
+    justify-content: space-around;
+    text-align: justify;
+  }
   .videoContainer {
     width: 500px;
     height: 280px;
@@ -659,15 +753,6 @@ ol li {
     height: auto;
   }
 }
-.navBlack {
-  background-color: black;
-  margin-top: -8px;
-}
-
-.listColor {
-  color: white;
-}
-
 * {
   padding: 0;
   margin: 0;
@@ -729,7 +814,7 @@ h3 {
   width: 250px;
   margin: 30px;
   padding: 15px;
-  background-color: #f2c56f;
+  background-image: linear-gradient(to bottom, #F2A405, #F4F4F4);
   outline: 2px solid orange;
   border-radius: 50px;
 }
@@ -792,11 +877,6 @@ ol li {
   align-items: center;
 }
 
-.videoContainer {
-  width: 280px;
-  height: auto;
-}
-
 .imgContainer {
   width: 280px;
   height: auto;
@@ -815,6 +895,34 @@ ol li {
   grid-template-rows: 1fr;
   align-items: center;
   justify-items: center;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box div {
+  width: 840px;
+}
+
+.flechaDark {
+  color: black;
+}
+
+.paddingCarousel {
+  padding-top: 400px;
+  margin-top: 200px;
+}
+
+.carousel-inner img {
+  max-width: 630px;
+  margin: 0 auto;
+}
+
+.carousel-inner {
+  height: 500px;
 }
 
 @media (min-width: 600px) {
@@ -863,6 +971,13 @@ ol li {
     align-items: center;
   }
   .col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: F4F4F4;
+    justify-content: space-around;
+    text-align: justify;
+  }
+  .cCenter {
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: F4F4F4;
@@ -944,7 +1059,7 @@ h3 {
   width: 250px;
   margin: 30px;
   padding: 15px;
-  background-color: #f2c56f;
+  background-image: linear-gradient(to bottom, #F2A405, #F4F4F4);
   outline: 2px solid orange;
   border-radius: 50px;
 }
@@ -1007,11 +1122,6 @@ ol li {
   align-items: center;
 }
 
-.videoContainer {
-  width: 280px;
-  height: auto;
-}
-
 .imgContainer {
   width: 280px;
   height: auto;
@@ -1030,6 +1140,34 @@ ol li {
   grid-template-rows: 1fr;
   align-items: center;
   justify-items: center;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box div {
+  width: 840px;
+}
+
+.flechaDark {
+  color: black;
+}
+
+.paddingCarousel {
+  padding-top: 400px;
+  margin-top: 200px;
+}
+
+.carousel-inner img {
+  max-width: 630px;
+  margin: 0 auto;
+}
+
+.carousel-inner {
+  height: 500px;
 }
 
 @media (min-width: 600px) {
@@ -1078,6 +1216,13 @@ ol li {
     align-items: center;
   }
   .col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: F4F4F4;
+    justify-content: space-around;
+    text-align: justify;
+  }
+  .cCenter {
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: F4F4F4;
