@@ -149,7 +149,7 @@ ol li {
 }
 
 .box div {
-  width: 840px;
+  width: 360px;
 }
 
 .flechaDark {
@@ -167,7 +167,7 @@ ol li {
 }
 
 .carousel-inner {
-  height: 500px;
+  height: 300px;
 }
 
 @media (min-width: 600px) {
@@ -183,6 +183,9 @@ ol li {
     align-content: center;
     background-color: F4F4F4;
     align-items: center;
+  }
+  .box div {
+    width: 600px;
   }
 }
 @media (min-width: 1028px) {
@@ -228,6 +231,9 @@ ol li {
     background-color: F4F4F4;
     justify-content: space-around;
     text-align: justify;
+  }
+  .box div {
+    width: 840px;
   }
   .videoContainer {
     width: 500px;
@@ -389,7 +395,7 @@ ol li {
 }
 
 .box div {
-  width: 840px;
+  width: 360px;
 }
 
 .flechaDark {
@@ -407,7 +413,7 @@ ol li {
 }
 
 .carousel-inner {
-  height: 500px;
+  height: 300px;
 }
 
 @media (min-width: 600px) {
@@ -423,6 +429,9 @@ ol li {
     align-content: center;
     background-color: F4F4F4;
     align-items: center;
+  }
+  .box div {
+    width: 600px;
   }
 }
 @media (min-width: 1028px) {
@@ -468,6 +477,9 @@ ol li {
     background-color: F4F4F4;
     justify-content: space-around;
     text-align: justify;
+  }
+  .box div {
+    width: 840px;
   }
   .videoContainer {
     width: 500px;
@@ -664,7 +676,7 @@ ol li {
 }
 
 .box div {
-  width: 840px;
+  width: 360px;
 }
 
 .flechaDark {
@@ -682,7 +694,7 @@ ol li {
 }
 
 .carousel-inner {
-  height: 500px;
+  height: 300px;
 }
 
 @media (min-width: 600px) {
@@ -698,6 +710,9 @@ ol li {
     align-content: center;
     background-color: F4F4F4;
     align-items: center;
+  }
+  .box div {
+    width: 600px;
   }
 }
 @media (min-width: 1028px) {
@@ -743,6 +758,9 @@ ol li {
     background-color: F4F4F4;
     justify-content: space-around;
     text-align: justify;
+  }
+  .box div {
+    width: 840px;
   }
   .videoContainer {
     width: 500px;
@@ -904,7 +922,7 @@ ol li {
 }
 
 .box div {
-  width: 840px;
+  width: 360px;
 }
 
 .flechaDark {
@@ -922,7 +940,7 @@ ol li {
 }
 
 .carousel-inner {
-  height: 500px;
+  height: 300px;
 }
 
 @media (min-width: 600px) {
@@ -938,6 +956,9 @@ ol li {
     align-content: center;
     background-color: F4F4F4;
     align-items: center;
+  }
+  .box div {
+    width: 600px;
   }
 }
 @media (min-width: 1028px) {
@@ -983,6 +1004,9 @@ ol li {
     background-color: F4F4F4;
     justify-content: space-around;
     text-align: justify;
+  }
+  .box div {
+    width: 840px;
   }
   .videoContainer {
     width: 500px;
@@ -1149,7 +1173,7 @@ ol li {
 }
 
 .box div {
-  width: 840px;
+  width: 360px;
 }
 
 .flechaDark {
@@ -1167,7 +1191,7 @@ ol li {
 }
 
 .carousel-inner {
-  height: 500px;
+  height: 300px;
 }
 
 @media (min-width: 600px) {
@@ -1183,6 +1207,9 @@ ol li {
     align-content: center;
     background-color: F4F4F4;
     align-items: center;
+  }
+  .box div {
+    width: 600px;
   }
 }
 @media (min-width: 1028px) {
@@ -1228,6 +1255,9 @@ ol li {
     background-color: F4F4F4;
     justify-content: space-around;
     text-align: justify;
+  }
+  .box div {
+    width: 840px;
   }
   .videoContainer {
     width: 500px;

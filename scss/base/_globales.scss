@@ -157,7 +157,8 @@ width:100;
   }
   
   .box div {
-    width: 840px;
+    width: 360px;
+    
   }
 
   .flechaDark {
@@ -179,7 +180,7 @@ width:100;
 
 // // achicar carousel
    .carousel-inner{
-    height: 500px;
+    height: 300px;
 }
 
 
@@ -202,6 +203,10 @@ width:100;
     align-items: center;
 }
 
+.box div {
+    width: 600px;
+    
+  }
 }
 
 // DESKTOP
@@ -259,6 +264,11 @@ width:100;
     text-align: justify;
 
     }
+
+.box div {
+    width: 840px;
+        
+      }
 .videoContainer {
     width: 500px;
     height: 280px;
